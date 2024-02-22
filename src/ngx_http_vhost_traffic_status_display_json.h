@@ -93,6 +93,7 @@
     "},"
 #else
 #define NGX_HTTP_VHOST_TRAFFIC_STATUS_JSON_FMT_SERVER "\"%V\":{"               \
+    "\"hostName\":%V,"                                                         \
     "\"requestCounter\":%uA,"                                                  \
     "\"inBytes\":%uA,"                                                         \
     "\"outBytes\":%uA,"                                                        \
